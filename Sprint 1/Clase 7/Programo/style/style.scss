@@ -1,0 +1,72 @@
+@import "variables";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+
+%button {
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    color: #fff;
+    filter: brightness(90%);
+
+    &:hover {
+        filter: brightness(110%);
+    }
+}
+
+body {
+    background: $bg-primary;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    background: $bg-secondary;
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid $border-primary;
+
+    input {
+        border-radius: 5px;
+        border: 1px solid $border-primary;
+        width: 100%;
+        padding: 10px;
+        display: block;
+
+        &:focus {
+            border: 1px dashed $btn-primary;
+        }
+    }
+
+    textarea {
+        @extend input;
+    }
+
+    label {
+        display: inline-block;
+        margin: 10px 0;
+    }
+
+    .ctn-btn {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 0 0;
+        button[type="reset"] {
+            background: $btn-secondary;
+            @extend %button;
+            margin-right: 20px;
+        }
+        button[type="submit"] {
+            background: $btn-primary;
+            @extend %button;
+        }
+    }
+}

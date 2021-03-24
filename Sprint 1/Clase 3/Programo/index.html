@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <form action="https://www.miservidor.com/usuario-nuevo" method="post">
+            <div>
+              <label for="name">Nombre:</label>
+              <input type="text" placeholder="John Doe" id="name" name="name" required tabindex="1">
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" placeholder="johnd@mail.com" id="email" name="email" tabindex="4">
+            </div>
+            <div>
+              <label for="pais">Seleccione su nacionalidad:</label>
+              <select name="Pais" id="pais" tabindex="3">
+                  <option value="1">Argentina</option>
+                  <option value="2">Brasil</option>
+                  <option value="3">Colombia</option>
+                  <option value="4">Venezuela</option>
+              </select>
+            </div>
+            <div>
+              <label for="url">Página Web:</label>
+              <input type="url" id="url" placeholder="htttp://www.aaa.com" name="url" tabindex="2">
+            </div>
+            <div>
+              <label for="cv">Cargue su CV:</label>
+              <input type="file" name="cv" id="cv" accept=".png">
+            </div>
+            <div>
+              <label for="pass">Password:</label>
+              <input type="password" name="pass" id="pass">
+            </div>
+            <div>
+              <p>¿Tiene experiencia previa en programación?</p>
+              <input type="radio" name="exp" value="yes" id="expYes">
+              <label for="expYes">Si</label>
+              <input type="radio" name="exp" value="no" id="expNo">
+              <label for="expNo">No</label>
+            </div>
+            <input type="hidden" name="oculto">
+            <div>
+              <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Ingrese su comentario"></textarea>
+            </div>
+            <div>
+              <input type="checkbox" name="terms" id="terms" required>
+              <label for="terms">Acepto términos y condiciones</label>
+          </div>
+          <div>
+              <label for="foods">Comidas favoritas:</label>
+              <select multiple name="foods" id="foods">
+                  <option value="rice">Arroz</option>
+                  <option value="banana">Banano</option>
+                  <option value="beans">Frijoles</option>
+            </select>
+          </div>
+          <div>   
+            <input type="submit">
+            <input type="reset">
+          </div>
+        </form>
+    </main>
+</body>
+</html>

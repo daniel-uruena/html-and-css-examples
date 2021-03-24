@@ -1,0 +1,91 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 10vmin;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+h4 {
+  font-size: 10vmax;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.box {
+  width: 100vmin;
+  height: 20vmin;
+  background: #6beeff;
+}
+
+.box-max {
+  width: 100vmax;
+  height: 20vmax;
+  background: #6beeff;
+}
+
+.box-vh {
+  width: 10vh;
+  height: 10vh;
+  background: #6beeff;
+}
+
+.box-vw {
+  width: 10vw;
+  height: 10vw;
+  background: #6beeff;
+}
+
+html {
+  font-size: 16px;
+}
+
+.parrafo {
+  font-size: 25px;
+}
+
+.parrafo .bold {
+  font-weight: bolder;
+}
+
+.parrafo .span-1rem {
+  font-size: 1rem;
+  color: red;
+}
+
+.parrafo .span-1em {
+  font-size: 1em;
+  color: red;
+}
+
+.box-media {
+  height: 50px;
+  background: #6beeff;
+}
+
+.box-media::after {
+  content: "Caja desde 0 a 767px";
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .box-media {
+    background: #6bff84;
+  }
+  .box-media::after {
+    content: "Caja desde 768px a cualquier otro tamaño mas grande";
+  }
+}
+/*# sourceMappingURL=style.css.map */

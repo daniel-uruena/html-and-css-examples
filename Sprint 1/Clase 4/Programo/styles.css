@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.center {
+    text-align: center;
+    color: #a74343;
+}
+
+.left {
+    text-align: left;
+    color: rgba(52, 147, 255, 1);
+}
+
+.right {
+    text-align: right;
+    color: red;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.lorem {
+    color: red;
+    font-size: 10px;
+}
+
+/* COMENTARIO */
+.box {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(52, 147, 255, 1);
+}
+
+.transparent {
+    background-color: rgba(52, 147, 255, 0.3);
+}
+
+.border-radius {
+    border-radius: 20px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.dotted {
+    border: 10px dotted red;
+}
+
+.solid {
+    border: 10px solid red;
+}
+
+.dashed {
+    border: 10px dashed red;
+}
+
+.double {
+    border: 10px double red;
+}
+
+.content-box {
+    box-sizing: content-box;
+    padding: 20px;
+}
+
+.border-box {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#titulo {
+    color: blue;
+}

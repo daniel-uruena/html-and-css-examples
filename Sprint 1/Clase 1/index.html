@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MI PÁGINA WEB</title>
+        <style>
+            body {
+                background-color: coral;
+            }
+
+            h1 {
+                color: blueviolet;
+            }
+
+            #presentacion {
+                color: aqua;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <h1>Hola mundo, bienvenido Daniel</h1>
+        <h1 id="presentacion">Soy desarrollador web</h1>
+
+        <button id="boton-saludo">SALUDAR</button>
+
+        <script>
+            function saludar() {
+                alert("Hola Daniel");
+            }
+            
+            const boton = document.getElementById("boton-saludo");
+            boton.addEventListener("click", saludar);
+        </script>
+    </body>
+</html>

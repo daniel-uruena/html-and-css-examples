@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox</title>
+</head>
+<body>
+    <main>
+        <h2>Flexbox - Propiedades elementos padre</h2>
+
+        <div class="flex">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+
+        <h2>Flex-direction</h2>
+        <h3>Row</h3>
+        <div class="row">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <h3>Row-reverse</h3>
+        <div class="row-reverse">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <h3>Column</h3>
+        <div class="column">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <h3>Column-reverse</h3>
+        <div class="column-reverse">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+
+        <h2>Flex-wrap</h2>
+        <p>Ejemplificando con flex-direction: row</p>
+        <h3>nowrap</h3>
+        <div class="nowrap">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+        </div>
+        <h3>wrap</h3>
+        <div class="wrap">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+        </div>
+        <h3>wrap-reverse</h3>
+        <div class="wrap-reverse">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+        </div>
+
+        <h2>Flex-flow</h2>
+        <h3>ej. flex-flow: row wrap</h3>
+        <div class="flex-flow">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+        </div>
+
+        <h2>justify-content</h2>
+        <p>justify-content con flex-direction: row</p>
+        <h3>justify-content: flex-start</h3>
+        <div class="jc jc-start">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <h3>justify-content: flex-end</h3>
+        <div class="jc jc-end">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <h3>justify-content: center</h3>
+        <div class="jc jc-center">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <h3>justify-content: space-between</h3>
+        <div class="jc jc-between">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <h3>justify-content: space-around</h3>
+        <div class="jc jc-around">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+
+        <p>Justify-content con flex-direction: column</p>
+        <h3>justify-content: flex-start</h3>
+        <div class="jc-col jc-start">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <h3>justify-content: flex-end</h3>
+        <div class="jc-col jc-end">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <h3>justify-content: center</h3>
+        <div class="jc-col jc-center">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <h3>justify-content: space-between</h3>
+        <div class="jc-col jc-between">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <h3>justify-content: space-around</h3>
+        <div class="jc-col jc-around">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+
+        <h2>align-items</h2>
+        <p>align-items con flex-direction: row</p>
+        <h3>align-items: flex-start</h3>
+        <div class="ai ai-start">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <h3>align-items: flex-end</h3>
+        <div class="ai ai-end">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <h3>align-items: center</h3>
+        <div class="ai ai-center">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+        <h3>align-items: baseline</h3>
+        <div class="ai ai-baseline">
+            <div class="box box-bas-1">1</div>
+            <div class="box box-bas-2">2</div>
+            <div class="box box-bas-3">3</div>
+            <div class="box box-bas-4">4</div>
+        </div>
+        <h3>align-items: stretch</h3>
+        <div class="ai ai-stretch">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+
+        <p>align-items con flex-direction: column</p>
+         <h3>align-items: flex-start</h3>
+         <div class="ai-col ai-start">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+         </div>
+         <h3>align-items: flex-end</h3>
+         <div class="ai-col ai-end">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+         </div>
+         <h3>align-items: center</h3>
+         <div class="ai-col ai-center">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+         </div>
+         <!--Se sace aca el width a los elementos para que funcione el stretch-->
+         <h3>align-items: stretch</h3>
+         <div class="ai-col ai-col-stretch">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+         </div>
+
+         <h2>align-content</h2>
+         <p>align-content con flex-direction: row</p>
+         <h3>align-content: flex-start</h3>
+         <div class="ac ac-start">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+             <div class="box">5</div>
+             <div class="box">6</div>
+             <div class="box">7</div>
+             <div class="box">8</div>
+         </div>
+         <h3>align-content: flex-end</h3>
+         <div class="ac ac-end">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+             <div class="box">5</div>
+             <div class="box">6</div>
+             <div class="box">7</div>
+             <div class="box">8</div>
+         </div>
+         <h3>align-content: center</h3>
+         <div class="ac ac-center">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+             <div class="box">5</div>
+             <div class="box">6</div>
+             <div class="box">7</div>
+             <div class="box">8</div>
+         </div>
+         <h3>align-content: space-between</h3>
+         <div class="ac ac-between">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+             <div class="box">5</div>
+             <div class="box">6</div>
+             <div class="box">7</div>
+             <div class="box">8</div>
+         </div>
+         <h3>align-content: space-around</h3>
+         <div class="ac ac-around">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+             <div class="box">5</div>
+             <div class="box">6</div>
+             <div class="box">7</div>
+             <div class="box">8</div>
+         </div>
+         <h3>align-content: stretch</h3>
+         <div class="ac ac-stretch">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+             <div class="box">5</div>
+             <div class="box">6</div>
+             <div class="box">7</div>
+             <div class="box">8</div>
+         </div>
+         <p>align-content con flex-direction: column</p>
+         <h3>align-content: flex-start</h3>
+         <div class="ac-col ac-start">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+             <div class="box">5</div>
+             <div class="box">6</div>
+             <div class="box">7</div>
+             <div class="box">8</div>
+         </div>
+         <h3>align-content: flex-end</h3>
+         <div class="ac-col ac-end">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+             <div class="box">5</div>
+             <div class="box">6</div>
+             <div class="box">7</div>
+             <div class="box">8</div>
+         </div>
+         <h3>align-content: center</h3>
+         <div class="ac-col ac-center">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+             <div class="box">5</div>
+             <div class="box">6</div>
+             <div class="box">7</div>
+             <div class="box">8</div>
+         </div>
+         <h3>align-content: space-between</h3>
+         <div class="ac-col ac-between">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+             <div class="box">5</div>
+             <div class="box">6</div>
+             <div class="box">7</div>
+             <div class="box">8</div>
+         </div>
+         <h3>align-content: space-around</h3>
+         <div class="ac-col ac-around">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+             <div class="box">5</div>
+             <div class="box">6</div>
+             <div class="box">7</div>
+             <div class="box">8</div>
+         </div>
+         <h3>align-content: stretch</h3>
+         <div class="ac-col ac-stretch-col">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+             <div class="box">5</div>
+             <div class="box">6</div>
+             <div class="box">7</div>
+             <div class="box">8</div>
+         </div>
+    </main>
+</body>
+</html>

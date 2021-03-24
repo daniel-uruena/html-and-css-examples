@@ -1,0 +1,32 @@
+/* Estilos para tablet */
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    .box-media {
+        background: #6bff84;
+    }
+
+    .box-media::after {
+        content: "Caja desde 768px a cualquier otro tamaño mas grande";
+    }
+}
+
+/* Estilos para portatil y pcs*/
+@media screen and (min-width: 1250px) and (max-width: 1920px) {
+    .box-media {
+        background: #6bff84;
+    }
+
+    .box-media::after {
+        content: "Caja desde 768px a cualquier otro tamaño mas grande";
+    }
+}
+
+/* Estilos para TV */
+@media screen and (min-width: 1921px) {
+    .box-media {
+        background: #6bff84;
+    }
+
+    .box-media::after {
+        content: "Caja desde 768px a cualquier otro tamaño mas grande";
+    }
+}
